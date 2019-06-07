@@ -4,7 +4,13 @@
 
 * __03_hello_dataset1_MNIST.ipynb__ 
 
-![image](https://user-images.githubusercontent.com/45751310/59102917-6bd16580-8968-11e9-8c30-86925524ca5a.png)
+<div>
+
+![image](https://user-images.githubusercontent.com/45751310/59107033-be178400-8972-11e9-96b7-c186c1e58c5e.png)
+
+![image](https://user-images.githubusercontent.com/45751310/59107127-e606e780-8972-11e9-87ee-c0cd770ba75b.png)
+
+</div>
 
 pixels = img1.reshape((28, 28)) # shape을 바꾼다. # 28*28 = 784, 각각의 글자는 28*28이다. 정보가 784개고 28개로 쪼갠다.
 
@@ -43,6 +49,18 @@ optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)  #optimizer를
 train = optimizer.minimize(cost) #cost를 최소화 한다.
 
 ---
+
+* __06_1_Perceptron_prediction_gates.ipynb__
+
+Perceptrons - Making Predictions
+
+AND Gate, NAND Gate, OR Gate, XOR Gate
+
+XOR cannot be expressed as a single layer Perceptron. #XOR은 단일 레이어 퍼셉트론으로 표현 될 수 없다.
+
+---
+
+* __06_2_Perceptrons_prediction.ipynb__
 
 
 
