@@ -15,3 +15,19 @@ plt.title('mnist.test.images[{}]'.format(idx)) # 이미지로 저장하게 해�
 plt.show() # 그림을 그린다.
 
 
+* 04_2_ActivationFunctions.ipynb
+
+![image](https://user-images.githubusercontent.com/45751310/59103371-9d96fc00-8969-11e9-9e0c-7de704a4a361.png)
+
+plt.title('relu')
+
+![image](https://user-images.githubusercontent.com/45751310/59103449-cfa85e00-8969-11e9-9d87-c78fbfc63a7e.png)
+
+plt.title('sigmoid')
+
+![image](https://user-images.githubusercontent.com/45751310/59103456-dd5de380-8969-11e9-853e-dd84889b65c9.png)
+
+plt.title('step function')
+
+
+
