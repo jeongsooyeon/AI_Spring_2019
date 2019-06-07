@@ -2,7 +2,7 @@
 
 인공지능개론 2019 봄학기
 
-* 03_hello_dataset1_MNIST.ipynb 
+* __03_hello_dataset1_MNIST.ipynb__ 
 
 ![image](https://user-images.githubusercontent.com/45751310/59102917-6bd16580-8968-11e9-8c30-86925524ca5a.png)
 
@@ -14,8 +14,9 @@ plt.title('mnist.test.images[{}]'.format(idx)) # 이미지로 저장하게 해�
 
 plt.show() # 그림을 그린다.
 
+---
 
-* 04_2_ActivationFunctions.ipynb
+* __04_2_ActivationFunctions.ipynb__
 
 ![image](https://user-images.githubusercontent.com/45751310/59103371-9d96fc00-8969-11e9-9e0c-7de704a4a361.png)
 
