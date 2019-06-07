@@ -30,5 +30,24 @@ plt.title('sigmoid')
 
 plt.title('step function')
 
+---
+
+* __05_Linear_regression_course.ipynb__
+
+cost = tf.reduce_mean(tf.square(hypothesis - y_train)) 
+
+#가장 기초적인 cost #가설값과 y값의 거리의차이를 제곱을 통해 +, - 구분없이 절대적인 거리를 구하고 그값을 cost에 저장한다.
+
+optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)  #optimizer를 통해 에러를 보며 train을 풀어간다. 
+
+train = optimizer.minimize(cost) #cost를 최소화 한다.
+
+---
+
+
+
+
+
+
 
 
